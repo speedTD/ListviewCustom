@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#f000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:gravity="center"
+        android:text="Top 1"
+        android:textColor="#fadd00"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:id="@+id/id_Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:text="Đấu Phá Thương Khung"
+        android:textColor="#fadd00"
+        android:textSize="24sp"
+        android:id="@+id/id_name_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/id_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dauphathuongkhung"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+</LinearLayout>
